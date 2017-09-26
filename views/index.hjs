@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<title>Better RU</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+</style>
+
+
+
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#mainRU" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+    onclick = window.open("http://www.rutgers.edu")>HomeRU</a>
+    <a href="#BlackBoardRU" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+    onclick = window.open("https://blackboard.rutgers.edu/webapps/login/")>BlackBoardRU</a>
+    <a href="#survey" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SURVEY</a>
+    <a href="#news" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+    onclick = window.open("http://news.rutgers.edu/news-center/rutgers-today#.WPwv41PyuRs")>NEWS</a>
+    <a href="#events" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+    onclick = window.open("https://ruevents.rutgers.edu/events/")>EVENTS</a>
+    <a href="#maps" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MAPS</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button"onclick = window.open("https://www.rutgersshop.com")>Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button"onclick = window.open("https://www.reddit.com/r/rutgers/")>Reddit</a>
+        <a href="#" class="w3-bar-item w3-button"onclick = window.open("https://www.youtube.com/user/Rutgers")>Media</a>
+        <a href="#" class="w3-bar-item w3-button"onclick = window.open("https://www.seamless.com/search?orderMethod=delivery&locationMode=DELIVERY&facetSet=umamiV2&pageSize=20&hideHateos&queryText=Healthy&latitude=40.48621749&longitude=-74.45182038&variationId=dishPopularityConversionScore&sortSetId=umamiV2&countOmittingTimes")>Healthy Food</a>
+      </div>
+    </div>
+    <!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a> -->
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#news" class="w3-bar-item w3-button w3-padding-large"
+  onclick = window.open("http://news.rutgers.edu/news-center/rutgers-today#.WPwv41PyuRs")>NEWS</a>
+  <a href="#events" class="w3-bar-item w3-button w3-padding-large"
+  onclick = window.open("https://ruevents.rutgers.edu/events/")>EVENTS</a>
+  <a href="#maps" class="w3-bar-item w3-button w3-padding-large">MAPS</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="w3-black">
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/images/slide1.png" style="width:100%">
+    <div class="w3-display-top w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3><img src="/images/projbetter.png" style="width:50%">
+    </div>
+  </div>
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/images/slide2.png" style="width:100%">
+    <div class="w3-display-top w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3><img src="/images/projbetter.png" style="width:50%">
+    </div>
+  </div>
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/images/slide3.png" style="width:100%">
+    <div class="w3-display-top w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3><img src="/images/projbetter.png" style="width:50%">
+    </div>
+  </div>
+
+  <!-- The Better Rutgers Section -->
+  <div class="w3-black">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">OUR MISSION: MAKING A BETTER RUTGERS</h2>
+    <p class="w3-opacity"><i>We love our campus and our campus loves us.</i></p>
+    <center>
+      <p class="w3-justify"><font size="5.5">We have created a website where professors and students can all contribute to the well-being of our campus.
+        Students and professors encounter many things the higher ups of Rutgers may not know of. This app will allow you to report anything
+      from vandalism, online bullying, sexual harassment, drug abuse and other negative issues that you may think need attention.
+      Please screenshot or take a picture to provide us with a better understanding of the situation you have experienced. This website
+      also allows for you to leave positive feedback if you please to do so.</font></p>
+    </center>
+    </div>
+  </div>
+
+  <!-- The Survey Section -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <div class="w3-white" id="survey">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">RUTGERS SURVEY</h2>
+      <p class="w3-opacity w3-center"><i>Whether it's good or bad, please let us know whats going on!</i></p>
+      <p class="w3-opacity w3-center"><i>All the information you enter below is confidential and will be sent to
+        administrators who will further address your concerns. Only fill out what pertains to you.
+        If you would like to remain anonymous, feel free to leave any field empty.</i></p>
+      <p class="w3-opacity w3-center"><i>
+             If you believe this is extremely urgent, please call
+            the New Brunswick Police Department at (732)745-5200 or 911 for emergencies.</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+      </ul>
+      <!-- <form id="contact-form" action="script.php" method="post"> -->
+
+      <ul>
+      <li><label for="name">Full Name:</label> <input type="text" name="name" id="name" value="" /></li><br>
+      <li><label for="email">Email Address:</label> <input type="text" name="email" id="email" value="" /></li><br>
+      <li><label for="phone">Phone Number:</label> <input type="text" name="phone" id="phone" value="" /></li><br>
+
+      </ul>
+
+      <ul>
+        <li>Please check all the emotions that apply to you:
+          <ul id="emotions">
+            <li><label for="angry">Angry</label> <input type="checkbox" name="angry" id="angry" value="angry"></li>
+            <li><label for="sad">Sad</label> <input type="checkbox" name="sad" id="sad" value="sad"></li>
+            <li><label for="happy">Happy</label> <input type="checkbox" name="happy" id="happy" value="happy"></li>
+            <li><label for="ambivalent">Ambivalent</label> <input type="checkbox" name="ambivalent" id="ambivalent" value="ambivalent"></li>
+          </ul>
+        </li>
+        <br>
+        <li>How satisfied or dissatisfied are you?
+          <ul id="satisfaction">
+            <li><label for="vsat">Very satisfied</label> <input type="radio" name="satisfaction" id="vsat" value="vsat"></li>
+            <li><label for="sat">Satisfied</label> <input type="radio" name="satisfaction" id="sat" value="sat"></li>
+            <li><label for="dcare">Didn't care</label> <input type="radio" name="satisfaction" id="dcare" value="dcare"></li>
+            <li><label for="disat">Dissatisfied</label> <input type="radio" name="satisfaction" id="disat" value="disat"></li>
+            <li><label for="vdisat">Very dissatisfied</label> <input type="radio" name="satisfaction" id="vdisat" value="vdisat"></li>
+          </ul>
+        </li>
+        <br>
+        <li><label for="comments">Other Remarks:</label> <textarea name="comments" id="comments" cols="25" rows="2"></textarea></li>
+      </ul>
+      <br>
+      <li>How urgent is this?
+        <ul id="urgency">
+          <li><label for="very">Very Urgent</label> <input type="radio" name="urgency" id="very" value="very"></li>
+          <li><label for="almost">Urgent</label> <input type="radio" name="urgency" id="almost" value="almost"></li>
+          <li><label for="middle">Neither</label> <input type="radio" name="urgency" id="middle" value="middle"></li>
+          <li><label for="little">Just Mentioning</label> <input type="radio" name="urgency" id="little" value="little"></li>
+          <li><label for="not">Not Urgent</label> <input type="radio" name="urgency" id="not" value="not"></li>
+        </ul>
+      </li>
+    </ul>
+    <br>
+
+
+
+      <ul>
+        <li><label for="photo">Photo:</label> <input type="file" name="photo" id="photo" value="" /></li><br>
+        <li><label for="location">Location:</label>
+        <select name="location" id="location">
+          <option value="">Select location</option>
+          <option value=online>Online</option>
+          <option value="off">Off-Campus</option>
+          <option value="livi">Livingston</option>
+          <option value="collegeave">College Ave</option>
+          <option value="bus">Busch</option>
+          <option value="cook">Cook Douglas</option>
+        </select></li>
+      </ul>
+      <br>
+      <li><button type="submit" value="Submit" id="submitBtn">SUBMIT</button></li>
+
+    </div>
+  </div>
+
+
+  <!-- The Map Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="maps">
+    <h2 class="w3-wide w3-center">MAPS</h2>
+    <p class="w3-opacity w3-center"><i>All Of Our Campuses In One Place!</i></p>
+    <div class="w3-row w3-padding-32">
+
+      <div class="w3-row w3-padding-32">
+        <div class="w3-quarter">
+          <p>Busch Campus</p>
+          <a href="http://rumaps.rutgers.edu/sites/rumaps/files/NB_Busch.pdf">
+          <img src="/images/buschmap.png" class="w3-round w3-margin-bottom" alt="BuschPic" style="width:80%">
+          </a>
+        </div>
+        <div class="w3-quarter">
+          <p>College Avenue</p>
+          <a href="http://rumaps.rutgers.edu/sites/rumaps/files/NB_CollegeAve.pdf">
+          <img src="/images/avemap.png" class="w3-round w3-margin-bottom" alt="AvePic" style="width:70%">
+          </a>
+        </div>
+        <div class="w3-quarter">
+          <p>Livingston</p>
+          <a href="http://rumaps.rutgers.edu/sites/rumaps/files/NB_Livingston.pdf">
+          <img src="/images/livimap.png" class="w3-round" alt="Random Name" style="width:70%">
+          </a>
+      </div>
+      <div class="w3-quarter">
+          <p>Cook/Douglass</p>
+          <a href="http://rumaps.rutgers.edu/sites/rumaps/files/NB_Cook_Douglass.pdf">
+          <img src="/images/cookmap.png" class="w3-round" alt="Random Name" style="width:70%">
+        </a>
+      </div>
+    </div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Add Google Maps -->
+<div id="googleMap" style="height:400px;" class="normal"></div>
+<script>
+function myMap() {
+  myCenter=new google.maps.LatLng(40.5008, -74.4474);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASHYxvxfb0AKbvVWhIRMJq9FOvRyQuBMM&callback=myMap"></script>
+<!--AIzaSyASHYxvxfb0AKbvVWhIRMJq9FOvRyQuBMM
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-white w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"onclick = window.open("https://www.facebook.com/RutgersU/")></i>
+  <i class="fa fa-instagram w3-hover-opacity"onclick = window.open("https://www.instagram.com/rutgersu/?hl=en")></i>
+  <i class="fa fa-twitter w3-hover-opacity"onclick = window.open("https://twitter.com/RutgersU?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor")></i>
+  <p class="w3-medium"> {Ali is currently working on this website} </p>
+</footer>
+
+<script>
+$('button#submitBtn').on('click', function(e){
+
+})
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+<!--
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap-theme.min.css' />
+    <link rel='stylesheet' href = '/stylesheets/style.css'/
+  </head>
+  <body>
+
+
+    <link href='//fonts.googleapis.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en' rel='stylesheet' type='text/css'>
+
+
+
+    <div class="topnav" id="myTopnav">
+      <a href="/">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+
+    <center>
+    <img src="/images/projbetter.png" alt="LogoHere" style="width:750px;height:250px;">
+
+    <div class="btn-toolbar" role="toolbar" aria-label="...">
+      <a href="/new-page">Complaint or Praise</a>
+    <button id = "button1" class="btn btn-group" role="group" aria-label="Click1">Click1</button>
+    <button id = "button2" class="btn btn-group" role="group" aria-label="Click2">Click2</button>
+    <button id = "button3" class="btn btn-group" role="group" aria-label="Click3">Click3</button>
+    </center>
+</div>
+<script   src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+
+<script>
+document.getElementById("button1").addEventListener("click",function(){
+
+  });
+
+
+
+
+</script>
+  </body>
+</html>
+-->
