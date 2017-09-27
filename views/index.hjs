@@ -32,7 +32,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Newark, NJ</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ah366@njit.edu</p>
           <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>732-595-6894</p>
-          <p><i class="fa fa-key fa-fw w3-margin-right w3-large w3-text-teal"></i>“If you can't explain it to a six year old, you don't understand it yourself.” -Albert Einstein</p>
+          <p><i class="fa fa-key fa-fw w3-margin-right w3-large w3-text-teal"></i>“Simplicity is the ultimate sophistication" -Clare Boothe Luce</p>
           <hr>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
