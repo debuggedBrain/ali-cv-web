@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Ali @ NJIT</title>
+<title>Ali Helal NJIT</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -95,7 +95,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <h5 class="w3-opacity"><b>NutraSnap: A Budget Conscious Supermarket Analytics Application</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-cube fa-fw w3-margin-right"></i>Superlative Winner: Created in March of 2017 at the Kean Univeristy Hackathon</h6>
-          <p>Our program uses the Google Vision API to pull product ID's from grocery store receipts. Using the raw information that Google provides, we created a process to find and pull the item ID's from the Google response. After getting the item ID's we used the Walgreens API to gather the UPD about each item, which is then inputted into a Nutritionix API. After getting data from these three API's, we store it in a user database where the user can recall the program at any time. Users at registration are prompted to input allergens, weight, height, gender and spending limits. With that information, we used the Wolfram API to calculate the recommended intake of calories, alert the user of allergen warnings, and whether spending limits were reached or not. </p><br>
+          <p>Our program uses the Google Vision API to pull product ID's from grocery store receipts. Using the raw information that Google provides, we created a process to find and pull the item ID's from the Google response. After getting the item ID's, we used the Walgreens API to gather the UPD about each item, which is then inputted into a Nutritionix API. After getting data from these three API's, we store it in a user database where the user can recall the program at any time. Users at registration are prompted to input allergens, weight, height, gender and spending limits. With that information, we used the Wolfram API to calculate the recommended intake of calories, alert the user of allergen warnings, and whether spending limits were reached or not. </p><br>
         </div>
       </div>
 
@@ -130,14 +130,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </div>
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Powered by w3.css and Ali's Brain</a></p>
 </footer>
 
 </body>
