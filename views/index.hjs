@@ -83,13 +83,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <h5 class="w3-opacity"><b>VirtualCV Project</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-cube fa-fw w3-margin-right"></i>Fundraising Stage: Created on my own in August of 2017 </h6>
-          <p>This project is meant to bring awareness to the technological advances that can change the way we advertise ourselves. This is done by creating free websites for peers to show help them stand out in hiring processes. </p>
+          <p>This project is meant to bring awareness to the technological advances that can change the way we advertise ourselves. This is done by creating free websites for my peers to help them stand out in hiring processes. </p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>The Better Society Project</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-certificate fa-fw w3-margin-right"></i>Superlative Winner: Created in April of 2017 at the Rutgers University Hackathon</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <p>This project is meant to give a voice to those who don't want to get involded with law inforcement in order to repoert something. This application takes anonymous reports and sends them to administrators at NJIT and Rutgers.</p>
           <hr>
         </div>
         <div class="w3-container">
