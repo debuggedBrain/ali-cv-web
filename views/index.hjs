@@ -82,7 +82,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-cubes fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>VirtualCV Project</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-cube fa-fw w3-margin-right"></i>Created on my own in August of 2017 </h6>
+          <h6 class="w3-text-teal"><i class="fa fa-cube fa-fw w3-margin-right"></i>Fundraising Stage: Created on my own in August of 2017 </h6>
           <p>This project is meant to bring awareness to the technological advances that can change the way we advertise ourselves. This is done by creating free websites for peers to show help them stand out in hiring processes. </p>
           <hr>
         </div>
