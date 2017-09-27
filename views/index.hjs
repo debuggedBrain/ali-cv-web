@@ -94,7 +94,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>NutraSnap</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-certificate fa-fw w3-margin-right"></i>Superlative Winner: Created in March of 2017 during the Kean Univeristy Hackathon</h6>
+          <h6 class="w3-text-teal"><i class="fa fa-certificate fa-fw w3-margin-right"></i>Superlative Winner: Created in March of 2017 at the Kean Univeristy Hackathon</h6>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
         </div>
       </div>
@@ -103,13 +103,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education and Work Experience</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>New Jersey Institute of Technology</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Information Technolgy Major <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Information Technolgy Major <span class="w3-tag w3-gray w3-round">Current</span></h6>
           <p>Member of the Associaton for Computing Machinery and Student Activities Counsil</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Amazon Fulfillment</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>8/2017 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>8/2017 - <span class="w3-tag w3-gray w3-round">Current</span></h6>
           <p>Sortation Associate: Main job duty is sorting packages based on size and destination</p>
           <hr>
         </div>
